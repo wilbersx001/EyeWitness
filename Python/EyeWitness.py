@@ -32,8 +32,8 @@ from multiprocessing import current_process
 try:
     from pyvirtualdisplay import Display
 except ImportError:
-    print('[*] pyvirtualdisplay not found.')
-    print('[*] Please run the script in the setup directory!')
+    print '[*] pyvirtualdisplay not found.'
+    print '[*] Please run the script in the setup directory!'
     sys.exit()
 
 
